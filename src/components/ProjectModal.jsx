@@ -7,12 +7,6 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-coverflow';
 
-const getImagePath = (path) => {
-  if(!path) return '';
-  if (path.startsWith('http')) return path;
-  return path.startsWith('/alixti') ? path : `/alixti${path}`;
-};
-
 function ProjectModal({ project, show, onHide }) {
   const [imagesLoaded, setImagesLoaded] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -22,7 +16,7 @@ function ProjectModal({ project, show, onHide }) {
     setImagesLoaded(true);
   };
 
-  const allImages = project ? [...(project.screenshots || [])].map(getImagePath) : [];
+  const allImages = project ? [...(project.screenshots || [])] : [];
 
   return (
     <>

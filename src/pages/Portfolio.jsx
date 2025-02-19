@@ -3,12 +3,6 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import ProjectModal from '../components/ProjectModal';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
-const getImagePath = (path) => {
-  if(!path) return '';
-  if (path.startsWith('http')) return path;
-  return path.startsWith('/alixti') ? path : `/alixti${path}`;
-};
-
 function Portfolio() {
   const [filter, setFilter] = useState('all');
   const [selectedProject, setSelectedProject] = useState(null);
@@ -73,7 +67,7 @@ function Portfolio() {
             role="button"
           >
             <LazyLoadImage
-              src={getImagePath(project.image)}
+              src={project.image}
               alt={project.title}
               effect="blur"
               className="project-image"
