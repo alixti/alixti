@@ -39,7 +39,7 @@ function Portfolio() {
 
   return (
     <div 
-      className="portfolio-container"
+      className="container mt-5"
     >
       <h2 className="text-center mb-5">My Projects</h2>
       

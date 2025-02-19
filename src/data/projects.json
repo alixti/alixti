@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "id": 8,
+      "id": 1,
       "title": "Activos ISEG",
       "description": "Asset management platform for corporate equipment and uniforms. Includes request management system, purchase orders, and inventory tracking with reporting tools.",
       "image": "/projects/activosiseg/1.jpeg",
@@ -21,11 +21,11 @@
         "MariaDB",
         "REST API"
       ],
-      "category": "web",
+      "category": "app",
       "featured": true
     },
     {
-      "id": 9,
+      "id": 2,
       "title": "Operaciones ISEG",
       "description": "Operations management platform with ERP integration. Features process automation, data visualization, and real-time analytics from ControlRoll ERP.",
       "image": "/projects/salaop/0.jpeg",
@@ -48,11 +48,11 @@
         "REST API",
         "Data Visualization"
       ],
-      "category": "web",
+      "category": "app",
       "featured": true
     },
     {
-      "id": 10,
+      "id": 3,
       "title": "ISEG Reclutapp",
       "description": "Advanced recruitment platform implemented in Chile and Peru. Features personality testing, applicant tracking system, and automated recruitment workflow.",
       "image": "/projects/recluapp2/1.jpeg",
@@ -72,11 +72,11 @@
         "MariaDB",
         "REST API"
       ],
-      "category": "web",
+      "category": "app",
       "featured": true
     },
     {
-      "id": 11,
+      "id": 4,
       "title": "Encuesta MermaRetail",
       "description": "Survey platform for Peru's first retail loss prevention market study. Features complex form logic and data analysis tools.",
       "image": "/projects/mr/1.jpeg",
@@ -93,11 +93,10 @@
         "MariaDB",
         "Chart.js"
       ],
-      "category": "web",
-      "featured": false
+      "category": "app"
     },
     {
-      "id": 14,
+      "id": 5,
       "title": "Demostenes Arcor",
       "description": "Employee management application for Arcor company. Features checklist creation, report generation, and performance tracking system.",
       "image": "/projects/apparcor/1.jpeg",
@@ -111,12 +110,10 @@
         "JavaScript",
         "MariaDB"
       ],
-      "category": "web",
-      "featured": false
+      "category": "app"
     },
-
     {
-      "id": 12,
+      "id": 6,
       "title": "RetroGames",
       "description": "Retro gaming community website built with modern web technologies. Features game database, user reviews, and community features.",
       "image": "/projects/rg/1.jpeg",
@@ -137,7 +134,7 @@
       "live": "https://retrogames.cl"
     },
     {
-      "id": 4,
+      "id": 7,
       "title": "Acuariofilia Chile",
       "description": "Aquarium enthusiast community platform with blog system and species catalog. Custom WordPress implementation with advanced taxonomies and community features.",
       "image": "/projects/acuariofilia/1.png",
@@ -153,11 +150,10 @@
         "CSS3",
         "MariaDB"
       ],
-      "category": "web",
-      "featured": false
+      "category": "web"
     },
     {
-      "id": 13,
+      "id": 8,
       "title": "Jardín Del Sur",
       "description": "Modern landing page for ornamental plant sales. Features responsive design and optimized user experience.",
       "image": "/projects/jds/1.jpeg",
@@ -173,11 +169,10 @@
         "SEO"
       ],
       "category": "web",
-      "featured": false,
       "live": "https://tecnomatico.cl/parcelasandaniel/"
     },
     {
-      "id": 7,
+      "id": 9,
       "title": "CierreBulldog",
       "description": "Fencing company website with quote generator and administrative dashboard. Features automated pricing system and project management tools.",
       "image": "/projects/cbull/1.jpeg",
@@ -194,11 +189,30 @@
         "MySQL",
         "REST API"
       ],
-      "category": "web",
-      "featured": false
+      "category": "web"
+
     },
     {
-      "id": 5,
+      "id": 19,
+      "title": "Tecnomatico",
+      "description": "Tech and computer repair service website with online booking system. Features service catalog and customer reviews.",
+      "image": "/projects/tmland/1.jpeg",
+      "screenshots": [
+        "/projects/tmland/1.jpeg",
+        "/projects/tmland/2.jpeg",
+        "/projects/tmland/3.jpeg"
+      ],
+      "technologies": [
+        "PHP",
+        "Bootstrap 5",
+        "jQuery",
+        "JavaScript",
+        "CSS3"
+      ],
+      "category": "web"
+    },
+    {
+      "id": 11,
       "title": "Radioaficionadosclub",
       "description": "Ham radio community platform featuring real-time weather API integration, radio frequency tracking, and community blog system. Custom WordPress implementation.",
       "technologies": [
@@ -213,11 +227,10 @@
         "Weather API",
         "Custom Widgets"
       ],
-      "category": "web",
-      "featured": false
+      "category": "web"
     },
     {
-      "id": 6,
+      "id": 12,
       "title": "Ventas Tecnomatico",
       "description": "Complete POS system with inventory management, sales tracking, and licensing system. Includes subscription management and automated billing.",
       "technologies": [
@@ -226,11 +239,10 @@
         "JavaScript",
         "MySQL"
       ],
-      "category": "web",
-      "featured": false
+      "category": "app"
     },
     {
-      "id": 1,
+      "id": 13,
       "title": "OnMind",
       "description": "Q&A social network platform with complete user interaction system. Developed full-stack implementation including real-time notifications, user authentication, and content moderation.",
       "technologies": [
@@ -243,11 +255,10 @@
         "AJAX",
         "REST API"
       ],
-      "category": "web",
-      "featured": true
+      "category": "app"
     },
     {
-      "id": 2,
+      "id": 14,
       "title": "ChileWare",
       "description": "Multi-topic social media platform featuring content creation, user interactions, and community management. Includes real-time notifications and content moderation system.",
       "technologies": [
@@ -259,11 +270,10 @@
         "MariaDB",
         "AJAX"
       ],
-      "category": "web",
-      "featured": false
+      "category": "app"
     },
     {
-      "id": 3,
+      "id": 15,
       "title": "ChileMania",
       "description": "Gaming-focused social network with content creation, user profiles, and gaming community features. Includes game integration and discussion forums.",
       "technologies": [
@@ -274,8 +284,7 @@
         "CSS3",
         "MariaDB"
       ],
-      "category": "web",
-      "featured": false
+      "category": "app"
     }
   ]
 }

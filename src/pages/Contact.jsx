@@ -20,6 +20,7 @@ function Contact() {
       setSubmitStatus('success');
       e.target.reset();
     } catch (error) {
+      console.error('Error submitting form:', error);
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
@@ -29,9 +30,9 @@ function Contact() {
 
   return (
     <div
-      className="container"
+      className="container mt-5"
     >
-      <h2 className="display-4 mb-4">Contact Me</h2>
+      <h2 className="text-center mb-5">Contact Me</h2>
       {submitStatus === 'success' && (
         <div className="alert alert-success">Message sent successfully!</div>
       )}
