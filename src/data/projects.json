@@ -177,6 +177,27 @@
       "live": "https://tecnomatico.cl/parcelasandaniel/"
     },
     {
+      "id": 7,
+      "title": "CierreBulldog",
+      "description": "Fencing company website with quote generator and administrative dashboard. Features automated pricing system and project management tools.",
+      "image": "/projects/cbull/1.jpeg",
+      "screenshots": [
+        "/projects/cbull/1.jpeg",
+        "/projects/cbull/2.jpeg",
+        "/projects/cbull/3.jpeg"
+      ],
+      "technologies": [
+        "React",
+        "PHP",
+        "Bootstrap",
+        "JavaScript",
+        "MySQL",
+        "REST API"
+      ],
+      "category": "web",
+      "featured": false
+    },
+    {
       "id": 5,
       "title": "Radioaficionadosclub",
       "description": "Ham radio community platform featuring real-time weather API integration, radio frequency tracking, and community blog system. Custom WordPress implementation.",
@@ -204,21 +225,6 @@
         "Bootstrap 5",
         "JavaScript",
         "MySQL"
-      ],
-      "category": "web",
-      "featured": false
-    },
-    {
-      "id": 7,
-      "title": "CierreBulldog",
-      "description": "Fencing company website with quote generator and administrative dashboard. Features automated pricing system and project management tools.",
-      "technologies": [
-        "React",
-        "PHP",
-        "Bootstrap",
-        "JavaScript",
-        "MySQL",
-        "REST API"
       ],
       "category": "web",
       "featured": false
