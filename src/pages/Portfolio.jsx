@@ -82,9 +82,6 @@ function Portfolio() {
                   </span>
                 ))}
               </div>
-              <button className="btn btn-primary w-100">
-                View Details
-              </button>
             </div>
           </div>
         ))}
