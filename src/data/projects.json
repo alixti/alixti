@@ -1,0 +1,275 @@
+{
+  "projects": [
+    {
+      "id": 8,
+      "title": "Activos ISEG",
+      "description": "Asset management platform for corporate equipment and uniforms. Includes request management system, purchase orders, and inventory tracking with reporting tools.",
+      "image": "/alixti/projects/activosiseg/1.jpeg",
+      "screenshots":[
+        "/alixti/projects/activosiseg/1.jpeg",
+        "/alixti/projects/activosiseg/2.jpeg",
+        "/alixti/projects/activosiseg/3.jpeg",
+        "/alixti/projects/activosiseg/4.jpeg"
+      ],
+      
+      "technologies": [
+        "React",
+        "Django",
+        "Python",
+        "Bootstrap",
+        "JavaScript",
+        "MariaDB",
+        "REST API"
+      ],
+      "category": "web",
+      "featured": true
+    },
+    {
+      "id": 9,
+      "title": "Operaciones ISEG",
+      "description": "Operations management platform with ERP integration. Features process automation, data visualization, and real-time analytics from ControlRoll ERP.",
+      "image": "/alixti/projects/salaop/0.jpeg",
+      "screenshots": [
+        "/alixti/projects/salaop/0.jpeg",
+        "/alixti/projects/salaop/1.jpeg",
+        "/alixti/projects/salaop/2.jpeg",
+        "/alixti/projects/salaop/3.jpeg"
+      ],
+      "technologies": [
+        "React",
+        "Django",
+        "Python",
+        "Bootstrap",
+        "JavaScript",
+        "MariaDB",
+        "Redis",
+        "Celery",
+        "WebSockets",
+        "REST API",
+        "Data Visualization"
+      ],
+      "category": "web",
+      "featured": true
+    },
+    {
+      "id": 10,
+      "title": "ISEG Reclutapp",
+      "description": "Advanced recruitment platform implemented in Chile and Peru. Features personality testing, applicant tracking system, and automated recruitment workflow.",
+      "image": "/alixti/projects/recluapp2/1.jpeg",
+      "screenshots": [
+        "/alixti/projects/recluapp2/1.jpeg",
+        "/alixti/projects/recluapp2/2.jpeg",
+        "/alixti/projects/recluapp2/3.jpeg",
+        "/alixti/projects/recluapp2/4.jpeg"
+      ],
+      "technologies": [
+        "React",
+        "Django",
+        "Python",
+        "Bootstrap",
+        "MaterialUI",
+        "JavaScript",
+        "MariaDB",
+        "REST API"
+      ],
+      "category": "web",
+      "featured": true
+    },
+    {
+      "id": 11,
+      "title": "Encuesta MermaRetail",
+      "description": "Survey platform for Peru's first retail loss prevention market study. Features complex form logic and data analysis tools.",
+      "image": "/alixti/projects/mr/1.jpeg",
+      "screenshots": [
+        "/alixti/projects/mr/1.jpeg",
+        "/alixti/projects/mr/2.jpeg"
+      ],
+      "technologies": [
+        "React",
+        "Django",
+        "Python",
+        "MaterialUI",
+        "JavaScript",
+        "MariaDB",
+        "Chart.js"
+      ],
+      "category": "web",
+      "featured": false
+    },
+    {
+      "id": 14,
+      "title": "Demostenes Arcor",
+      "description": "Employee management application for Arcor company. Features checklist creation, report generation, and performance tracking system.",
+      "image": "/alixti/projects/apparcor/1.jpeg",
+      "screenshots": [
+        "/alixti/projects/apparcor/1.jpeg",
+        "/alixti/projects/apparcor/2.jpeg"
+      ],
+      "technologies": [
+        "PHP",
+        "Bootstrap",
+        "JavaScript",
+        "MariaDB"
+      ],
+      "category": "web",
+      "featured": false
+    },
+
+    {
+      "id": 12,
+      "title": "RetroGames",
+      "description": "Retro gaming community website built with modern web technologies. Features game database, user reviews, and community features.",
+      "image": "/alixti/projects/rg/1.jpeg",
+      "screenshots": [
+        "/alixti/projects/rg/1.jpeg"
+      ],
+      "technologies": [
+        "Astro",
+        "PHP",
+        "JavaScript",
+        "Bootstrap 5",
+        "MySQL",
+        "SEO",
+        "Content Management"
+      ],
+      "category": "web",
+      "featured": true,
+      "live": "https://retrogames.cl"
+    },
+    {
+      "id": 4,
+      "title": "Acuariofilia Chile",
+      "description": "Aquarium enthusiast community platform with blog system and species catalog. Custom WordPress implementation with advanced taxonomies and community features.",
+      "image": "/alixti/projects/acuariofilia/1.png",
+      "screenshots": [
+        "/alixti/projects/acuariofilia/1.png"
+      ],
+      "technologies": [
+        "PHP",
+        "WordPress",
+        "Bootstrap 5",
+        "jQuery",
+        "JavaScript",
+        "CSS3",
+        "MariaDB"
+      ],
+      "category": "web",
+      "featured": false
+    },
+    {
+      "id": 13,
+      "title": "Jardín Del Sur",
+      "description": "Modern landing page for ornamental plant sales. Features responsive design and optimized user experience.",
+      "image": "/alixti/projects/jds/1.jpeg",
+      "screenshots": [
+        "/alixti/projects/jds/1.jpeg",
+        "/alixti/projects/jds/2.jpeg"
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap 5",
+        "SEO"
+      ],
+      "category": "web",
+      "featured": false,
+      "live": "https://tecnomatico.cl/parcelasandaniel/"
+    },
+    {
+      "id": 5,
+      "title": "Radioaficionadosclub",
+      "description": "Ham radio community platform featuring real-time weather API integration, radio frequency tracking, and community blog system. Custom WordPress implementation.",
+      "technologies": [
+        "PHP",
+        "WordPress",
+        "Bootstrap 5",
+        "jQuery",
+        "JavaScript",
+        "CSS3",
+        "MariaDB",
+        "REST API",
+        "Weather API",
+        "Custom Widgets"
+      ],
+      "category": "web",
+      "featured": false
+    },
+    {
+      "id": 6,
+      "title": "Ventas Tecnomatico",
+      "description": "Complete POS system with inventory management, sales tracking, and licensing system. Includes subscription management and automated billing.",
+      "technologies": [
+        "PHP",
+        "Bootstrap 5",
+        "JavaScript",
+        "MySQL"
+      ],
+      "category": "web",
+      "featured": false
+    },
+    {
+      "id": 7,
+      "title": "CierreBulldog",
+      "description": "Fencing company website with quote generator and administrative dashboard. Features automated pricing system and project management tools.",
+      "technologies": [
+        "React",
+        "PHP",
+        "Bootstrap",
+        "JavaScript",
+        "MySQL",
+        "REST API"
+      ],
+      "category": "web",
+      "featured": false
+    },
+    {
+      "id": 1,
+      "title": "OnMind",
+      "description": "Q&A social network platform with complete user interaction system. Developed full-stack implementation including real-time notifications, user authentication, and content moderation.",
+      "technologies": [
+        "PHP",
+        "Bootstrap 5",
+        "jQuery",
+        "JavaScript",
+        "CSS3",
+        "MariaDB",
+        "AJAX",
+        "REST API"
+      ],
+      "category": "web",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "ChileWare",
+      "description": "Multi-topic social media platform featuring content creation, user interactions, and community management. Includes real-time notifications and content moderation system.",
+      "technologies": [
+        "PHP",
+        "Bootstrap 5",
+        "jQuery",
+        "JavaScript",
+        "CSS3",
+        "MariaDB",
+        "AJAX"
+      ],
+      "category": "web",
+      "featured": false
+    },
+    {
+      "id": 3,
+      "title": "ChileMania",
+      "description": "Gaming-focused social network with content creation, user profiles, and gaming community features. Includes game integration and discussion forums.",
+      "technologies": [
+        "PHP",
+        "Bootstrap 5",
+        "jQuery",
+        "JavaScript",
+        "CSS3",
+        "MariaDB"
+      ],
+      "category": "web",
+      "featured": false
+    }
+  ]
+}
