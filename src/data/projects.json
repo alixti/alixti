@@ -1,0 +1,132 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Acuariofilia Chile",
+      "description": "Aquarium enthusiast community platform with blog system and species catalog. Custom WordPress implementation with advanced taxonomies and community features.",
+      "image": "/projects/acuariofilia/1.png",
+      "screenshots": [
+        "/projects/acuariofilia/1.png"
+      ],
+      "technologies": [
+        "PHP",
+        "WordPress",
+        "Bootstrap 5",
+        "jQuery",
+        "JavaScript",
+        "CSS3",
+        "MariaDB"
+      ],
+      "category": "web"
+    },
+    {
+      "id": 2,
+      "title": "Jardín Del Sur",
+      "description": "Modern landing page for ornamental plant sales. Features responsive design and optimized user experience.",
+      "image": "/projects/jds/1.jpeg",
+      "screenshots": [
+        "/projects/jds/1.jpeg",
+        "/projects/jds/2.jpeg"
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap 5",
+        "SEO"
+      ],
+      "category": "web",
+      "live": "https://tecnomatico.cl/parcelasandaniel/"
+    },
+    {
+      "id": 3,
+      "title": "CierreBulldog",
+      "description": "Fencing company website with quote generator and administrative dashboard. Features automated pricing system and project management tools.",
+      "image": "/projects/cbull/1.jpeg",
+      "screenshots": [
+        "/projects/cbull/1.jpeg",
+        "/projects/cbull/2.jpeg",
+        "/projects/cbull/3.jpeg"
+      ],
+      "technologies": [
+        "React",
+        "PHP",
+        "Bootstrap",
+        "JavaScript",
+        "MySQL",
+        "REST API"
+      ],
+      "category": "web"
+
+    },
+    {
+      "id": 4,
+      "title": "Tecnomatico",
+      "description": "Tech and computer repair service website with online booking system. Features service catalog and customer reviews.",
+      "image": "/projects/tmland/1.jpeg",
+      "screenshots": [
+        "/projects/tmland/1.jpeg",
+        "/projects/tmland/2.jpeg",
+        "/projects/tmland/3.jpeg"
+      ],
+      "technologies": [
+        "PHP",
+        "Bootstrap 5",
+        "jQuery",
+        "JavaScript",
+        "CSS3"
+      ],
+      "category": "web"
+    },
+    {
+      "id": 5,
+      "title": "Ventas Tecnomatico",
+      "description": "Complete POS system with inventory management, sales tracking, and licensing system. Includes subscription management and automated billing.",
+      "technologies": [
+        "PHP",
+        "Bootstrap 5",
+        "JavaScript",
+        "MySQL"
+      ],
+      "category": "app"
+    },
+    {
+      "id": 6,
+      "title": "OnMind",
+      "description": "Q&A social network platform with complete user interaction system. Developed full-stack implementation including real-time notifications, user authentication, and content moderation.",
+      "technologies": [
+        "PHP",
+        "Bootstrap 5",
+        "jQuery",
+        "JavaScript",
+        "CSS3",
+        "MariaDB",
+        "AJAX",
+        "REST API"
+      ],
+      "category": "app"
+    },
+    
+    {
+      "id": 7,
+      "title": "RetroGames",
+      "description": "Retro gaming community website built with modern web technologies. Features game database, user reviews, and community features.",
+      "image": "/projects/rg/1.jpeg",
+      "screenshots": [
+        "/projects/rg/1.jpeg"
+      ],
+      "technologies": [
+        "Astro",
+        "PHP",
+        "JavaScript",
+        "Bootstrap 5",
+        "MySQL",
+        "SEO",
+        "Content Management"
+      ],
+      "category": "web",
+      "featured": true,
+      "live": "https://retrogames.cl"
+    }
+  ]
+}
