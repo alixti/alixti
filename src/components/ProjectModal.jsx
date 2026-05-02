@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Modal } from 'react-bootstrap';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, EffectCoverflow } from 'swiper/modules';
@@ -12,6 +12,11 @@ function ProjectModal({ project, show, onHide }) {
   const [imagesLoaded, setImagesLoaded] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [lightboxOpen, setLightboxOpen] = useState(false);
+
+  useEffect(() => {
+    setImagesLoaded(false);
+    setCurrentImageIndex(0);
+  }, [project?.id]);
 
   const handleImageLoad = () => {
     setImagesLoaded(true);
@@ -63,7 +68,12 @@ function ProjectModal({ project, show, onHide }) {
                     <img
                       src={image}
                       alt={`${project?.title} screenshot ${index + 1}`}
-                      onLoad={index === currentImageIndex ? handleImageLoad : undefined}
+                      ref={(node) => {
+                        if (node && node.complete && !imagesLoaded) {
+                          setImagesLoaded(true);
+                        }
+                      }}
+                      onLoad={handleImageLoad}
                       style={{ display: imagesLoaded ? 'block' : 'none', cursor: 'zoom-in' }}
                       onClick={() => setLightboxOpen(true)}
                     />
@@ -93,17 +103,17 @@ function ProjectModal({ project, show, onHide }) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  View on GitHub
+                  <i className="bi bi-github me-2"></i> View on GitHub
                 </a>
               )}
-              {project?.live && (
+              {project?.website && (
                 <a
-                  href={project?.live}
+                  href={project?.website}
                   className="btn btn-primary"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Visit Website
+                  <i className="bi bi-globe me-2"></i> Visit
                 </a>
               )}
             </div>

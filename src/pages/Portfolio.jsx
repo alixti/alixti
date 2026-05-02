@@ -68,7 +68,7 @@ function Portfolio() {
         </motion.div>
         
         <motion.div 
-          className="filters-section d-none"
+          className="filters-section"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2 }}
@@ -78,7 +78,7 @@ function Portfolio() {
             onClick={() => setFilter('all')}
           >
             <i className="bi bi-grid-3x3-gap me-2"></i>
-            All Projects
+            All
           </button>
           <button 
             className={`filter-btn ${filter === 'web' ? 'active' : ''}`}
@@ -86,6 +86,13 @@ function Portfolio() {
           >
             <i className="bi bi-globe me-2"></i>
             Web
+          </button>
+          <button 
+            className={`filter-btn ${filter === 'plugin' ? 'active' : ''}`}
+            onClick={() => setFilter('plugin')}
+          >
+            <i className="bi bi-plug me-2"></i>
+            Plugins
           </button>
         </motion.div>
 

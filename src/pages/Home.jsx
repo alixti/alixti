@@ -27,7 +27,7 @@ function Home() {
 
   return (
     <div className="home-page">
-      <motion.div 
+      <motion.div
         className="hero-container"
         variants={containerVariants}
         initial="hidden"
@@ -43,7 +43,7 @@ function Home() {
         <motion.h2 className="hero-title" variants={itemVariants}>
           Software Engineer
         </motion.h2>
-        
+
         <motion.p className="hero-description" variants={itemVariants}>
           Turning ideas into reality
         </motion.p>
@@ -63,7 +63,7 @@ function Home() {
           <motion.a
             whileHover={{ scale: 1.05, y: -3 }}
             whileTap={{ scale: 0.95 }}
-            href="https://linkedin.com/in/alixtidev"
+            href="https://linkedin.com/in/alixti"
             target="_blank"
             rel="noopener noreferrer"
             className="hero-btn hero-btn-secondary"

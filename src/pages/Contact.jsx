@@ -10,7 +10,7 @@ function Contact() {
     setIsSubmitting(true);
 
     try {
-      await fetch('', {
+      await fetch('https://api.alixti.dev/contactform', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

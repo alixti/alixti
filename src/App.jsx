@@ -11,16 +11,16 @@ function App() {
   return (
     <div className="app-wrapper">
       <Navbar />
-        <div
-          key={location.pathname}
-          className="page-wrapper"
-        >
-          <Routes location={location}>
-            <Route path="/" element={<Home />} />
-            {/* <Route path="/contact" element={<Contact />} /> */}
-            <Route path="/portfolio" element={<Portfolio />} />
-          </Routes>
-        </div>
+      <div
+        key={location.pathname}
+        className="page-wrapper"
+      >
+        <Routes location={location}>
+          <Route path="/" element={<Home />} />
+          {/* <Route path="/contact" element={<Contact />} /> */}
+          <Route path="/portfolio" element={<Portfolio />} />
+        </Routes>
+      </div>
     </div>
   );
 }
